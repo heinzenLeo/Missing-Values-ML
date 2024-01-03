@@ -14,9 +14,16 @@ Information about NaN values in your data will be shown.
 - I still highly recommend you seeing the example.md or example.ipynb in order to understand how to use it in real-life problems.
 
 ## Warnings:
-Ensure you have the following libraries installed in your coding environment: *pandas*, *inspect*
+Ensure you have the following libraries installed in your coding environment: *pandas*, *inspect*.
 
-Both of your X_train and X_test data must be DataFrame type
+Both of your X_train and X_test data must be DataFrame type.
+
+If any error is found, please contact me.
+
+## Data:
+melb_data.csv and train.csv were downloaded from (https://www.kaggle.com)
+
+(melb_data: https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot?select=melb_data.csv) -- (train: in Categorical Variables, in Intermidiate ML from: https://www.kaggle.com)
 
 ## Contact:
 
