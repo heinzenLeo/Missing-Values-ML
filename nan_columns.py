@@ -20,6 +20,8 @@ def nan_columns(X_train, X_valid):
         
         if type(missing) != pd.Series:
             print('*error* -->', '|' + xs_names[z] + '|', '--> you may have put a wrong input: only pandas DataFrame types are accepted')
+
+            z += 1
             continue
         
         if missing.empty == True:
